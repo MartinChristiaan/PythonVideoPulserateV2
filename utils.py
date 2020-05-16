@@ -25,9 +25,7 @@ def draw_face_roi(face,img):
         x,y,w,h = [int(c) for c in face]
         delta =int( w*0.2)
         thickness =int( w*0.025)
-        color = (255,0,0)
-        
-        
+        color = (255,0,0)       
         
         image = cv2.line(img, (x,y), (x+delta,y), color, thickness) 
         image = cv2.line(image, (x,y), (x,y+delta), color, thickness)
