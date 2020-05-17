@@ -16,7 +16,7 @@ The most convenient location to extract the pulse is the face. Not only is this 
 ![Alt text](./mtrack.svg)
 
 
-## Chrominance Method
+## Pulse Extraction
 
 
 
