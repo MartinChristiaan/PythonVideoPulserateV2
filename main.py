@@ -14,7 +14,7 @@ tracker 			= cv2.TrackerMOSSE_create()
 cap 				= utils.RecordingReader() if use_prerecorded else cv2.VideoCapture(0) 
 
 window				= 300 # Number of samples to use for every measurement
-skin_vec            = [0.5,0.66667,1]
+skin_vec            = [0.3841,0.5121,0.7682]
 B,G,R               = 0,1,2
 
 found_face 	            = False
